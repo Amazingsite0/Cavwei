@@ -76,7 +76,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
     document.getElementById('checkout-button').addEventListener('click', function () {
         const orderSummary = cartItems.map(item => `${item.name} - Pkr ${item.price}`).join('%0A');
-        const whatsappUrl = `https://wa.me/923353466636?text=Order%20Summary:%0A${orderSummary}%0ATotal:%20Pkr%20${cartTotal}`;
+        const whatsappUrl = `https://wa.me/923309240007?text=Order%20Summary:%0A${orderSummary}%0ATotal:%20Pkr%20${cartTotal}`;
         window.location.href = whatsappUrl;
     });
 
